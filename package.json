@@ -1,0 +1,27 @@
+{
+  "name": "bgg-top10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "getLinks": "node --experimental-modules --experimental-json-modules --es-module-specifier-resolution=node main.js",
+    "generateGameHistory": "node --experimental-modules --experimental-json-modules --es-module-specifier-resolution=node generateGameHistory.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycczkl/bgg-top10.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ycczkl/bgg-top10/issues"
+  },
+  "homepage": "https://github.com/ycczkl/bgg-top10#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "dayjs": "^1.10.3"
+  }
+}
